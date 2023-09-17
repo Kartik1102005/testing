@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install flask
 
-CM ["python","app.py"]
+CMD ["python","app.py"]
