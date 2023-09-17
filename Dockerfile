@@ -5,5 +5,6 @@ WORKDIR /app
 COPY . .
 
 RUN pip install flask
+RUN pip install --upgrade pip
 
 CMD ["python","app.py"]
